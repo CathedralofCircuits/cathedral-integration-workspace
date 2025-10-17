@@ -1,0 +1,106 @@
+name: 🐛 Sacred Bug Report
+description: Report a bug in the sacred technology system
+title: "[🐛 Sacred Bug]: "
+labels: ["bug", "sacred", "triage"]
+assignees:
+  - Bekalah
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🏛️ **Sacred Technology Bug Report**
+
+        Thank you for helping maintain the sacred geometry and mystical computing systems!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 🔮 Sacred Issue Description
+      description: Describe the mystical anomaly or technical disruption
+      placeholder: What sacred principle is being violated or what mathematical harmony is disrupted?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 📐 Steps to Reproduce
+      description: Sacred ritual steps to reproduce the issue
+      placeholder: |
+        1. Enter the sacred geometry interface
+        2. Invoke the fibonacci sequence (21, 34, 55...)
+        3. Attempt to render the golden spiral
+        4. Observe the disruption in mathematical harmony
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✨ Expected Sacred Behavior
+      description: What should happen according to divine mathematical principles
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 🌑 Actual Behavior
+      description: What is currently manifesting in violation of sacred order
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sacred_system
+    attributes:
+      label: 🔮 Affected Sacred System
+      description: Which mystical component is experiencing disruption?
+      options:
+        - 🧠 Core Sacred Mathematics Engine
+        - 🎨 Visionary Art Rendering System
+        - 💜 Trauma-Informed Safety Protocols
+        - 🃏 Tarot & Kabbalistic Systems
+        - 🌟 Sacred Geometry Visualization
+        - 📚 Interactive Grimoire Interface
+        - 🏗️ Immersive Sacred Realms
+        - 🔬 Research & Development Hub
+        - 🔧 Management & Preservation Tools
+        - 🚀 Deployment & Integration Systems
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 📊 Sacred Disruption Severity
+      description: How severely is the divine mathematical order disrupted?
+      options:
+        - 🔴 Critical - Sacred geometry foundation broken
+        - 🟠 High - Major mystical system disruption
+        - 🟡 Medium - Minor mathematical imbalance
+        - 🔵 Low - Cosmetic sacred harmony issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🛠️ Sacred Environment
+      description: Technical environment where the disruption occurs
+      value: |
+        - **OS**: [e.g. macOS 14, Windows 11, Ubuntu 22.04]
+        - **Node.js**: [e.g. 20.10.0]
+        - **Browser**: [e.g. Chrome 120, Firefox 119]
+        - **Sacred Component**: [e.g. @cathedral/sacred-geometry@1.0.0]
+        - **Golden Ratio**: [e.g. 1.6180339887]
+        - **Fibonacci Sequence**: [e.g. 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 🌟 Additional Sacred Context
+      description: Any other mystical or mathematical context that may help restore harmony

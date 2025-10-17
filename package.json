@@ -1,0 +1,33 @@
+{
+  "name": "cathedral-integration-workspace",
+  "version": "2.0.0",
+  "description": "Unified sacred technology workspace with gem towers and fusion kink integration",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean && rm -rf node_modules .turbo",
+    "install:all": "pnpm install",
+    "build:all": "turbo run build --filter=!@cathedral/*-docs",
+    "deploy": "turbo run deploy",
+    "gem-towers": "node -e \"console.log('🎭 Gem Tower System Active')\" && cd cathedral-monorepo && pnpm run build",
+    "fusion-kink": "node -e \"console.log('💎 Fusion Kink Generator Active')\" && cd packages/synthesis-engine && pnpm run build",
+    "sacred-geometry": "node -e \"console.log('🔺 Sacred Geometry Engine Active')\" && cd packages/three-engine && pnpm run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}

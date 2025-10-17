@@ -1,0 +1,262 @@
+{
+  "cathedral-ecosystem": {
+    "name": "Cathedral of Circuits - Complete Repository Registry",
+    "version": "1.0.0",
+    "description": "Master registry tracking all repositories in the Cathedral of Circuits ecosystem",
+    "created": "2025-01-13",
+    "last_updated": "2025-01-13",
+    "total_repositories": 8,
+    "ecosystem_status": "active",
+    "repositories": {
+      "cathedral-monorepo": {
+        "name": "Cathedral Monorepo",
+        "description": "Unified mystical computing platform merging all cathedral components",
+        "url": "https://github.com/Bekalah/cathedral-monorepo",
+        "local_path": "./cathedral-monorepo",
+        "component_type": "monorepo",
+        "status": "active",
+        "version": "1.0.0",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/cathedral-monorepo",
+          "status": "pending"
+        },
+        "dependencies": [
+          "stone-grimoire",
+          "liber-arcanae",
+          "codex-14499",
+          "cosmogenesis-learning-engine"
+        ],
+        "technologies": ["nodejs", "pnpm", "turbo", "rush"],
+        "last_commit": "pending_check"
+      },
+      "circuitum99": {
+        "name": "Circuitum 99",
+        "description": "The Soul of Codex 144:99 - Tarot System & Sacred Schema",
+        "url": "https://github.com/Bekalah/circuitum99",
+        "local_path": "./circuitum99",
+        "component_type": "tarot-system",
+        "status": "active",
+        "version": "1.0.0",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/circuitum99",
+          "status": "pending"
+        },
+        "dependencies": [],
+        "technologies": ["html", "css", "javascript"],
+        "sacred_elements": {
+          "nodes": 144,
+          "fusion_gates": 99,
+          "chapters": 33,
+          "egregores": 7
+        },
+        "last_commit": "pending_check"
+      },
+      "codex-14499": {
+        "name": "Codex 144:99",
+        "description": "Cosmic Helix Renderer for sacred geometry visualization",
+        "url": "https://github.com/Bekalah/codex-14499",
+        "local_path": "./codex-14499",
+        "component_type": "visualization-engine",
+        "status": "active",
+        "version": "1.0.0",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/codex-14499",
+          "status": "pending"
+        },
+        "dependencies": [],
+        "technologies": ["html5-canvas", "javascript", "python"],
+        "sacred_elements": {
+          "vesica_field": "9x7_lattice",
+          "tree_of_life": "10_sephirot_22_paths",
+          "fibonacci_curve": "golden_spiral",
+          "double_helix": "22_crossbars"
+        },
+        "last_commit": "pending_check"
+      },
+      "cosmogenesis-learning-engine": {
+        "name": "Cosmogenesis Learning Engine",
+        "description": "World-building generator for Codex 144:99",
+        "url": "https://github.com/Bekalah/cosmogenesis-learning-engine",
+        "local_path": "./cosmogenesis-learning-engine",
+        "component_type": "world-building-engine",
+        "status": "active",
+        "version": "0.9.2",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/cosmogenesis-learning-engine",
+          "status": "pending"
+        },
+        "dependencies": [],
+        "technologies": ["nodejs", "python", "vite", "svg", "png"],
+        "bridges": [
+          "tesseract-bridge",
+          "liber-arcanae",
+          "data-ingest-pipeline"
+        ],
+        "last_commit": "pending_check"
+      },
+      "liber-arcanae": {
+        "name": "Liber Arcanae",
+        "description": "Interactive Grimoire for Codex 144:99 Tarot System",
+        "url": "https://github.com/Bekalah/liber-arcanae",
+        "local_path": "./liber-arcanae",
+        "component_type": "interactive-grimoire",
+        "status": "active",
+        "version": "1.0.0",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/liber-arcanae",
+          "status": "pending"
+        },
+        "dependencies": [],
+        "technologies": ["html", "css", "javascript"],
+        "tarot_system": {
+          "major_arcana": 22,
+          "minor_arcana": 56,
+          "total_cards": 78,
+          "chapters": 33
+        },
+        "last_commit": "pending_check"
+      },
+      "cathedral-research": {
+        "name": "Cathedral Research",
+        "description": "Research and development repository for Cathedral of Circuits",
+        "url": "https://github.com/Bekalah/cathedral-research",
+        "local_path": "missing",
+        "component_type": "research",
+        "status": "missing",
+        "version": "unknown",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/cathedral-research",
+          "status": "not_deployed"
+        },
+        "dependencies": [],
+        "technologies": ["markdown", "research"],
+        "notes": "Repository not found locally - needs to be cloned or created"
+      },
+      "stone-cathedral": {
+        "name": "Stone Cathedral",
+        "description": "Immersive Sacred Realms and 3D Cathedral Experience",
+        "url": "https://github.com/Bekalah/stone-cathedral",
+        "local_path": "missing",
+        "component_type": "immersive-realms",
+        "status": "missing",
+        "version": "unknown",
+        "deployment": {
+          "platform": "github-pages",
+          "url": "https://bekalah.github.io/stone-cathedral",
+          "status": "not_deployed"
+        },
+        "dependencies": [],
+        "technologies": ["threejs", "webgl", "3d"],
+        "sacred_elements": {
+          "rosslyn_chapel": "virtual_exploration",
+          "hilma_af_klint": "visionary_art_spaces",
+          "crystal_grids": "meditation_rooms",
+          "sacred_geometry": "environments"
+        },
+        "notes": "Repository not found locally - needs to be cloned or created"
+      },
+      "cathedral-integration-workspace": {
+        "name": "Cathedral Integration Workspace",
+        "description": "Main integration workspace for Cathedral of Circuits ecosystem",
+        "url": "https://github.com/CathedralofCircuits/cathedral-integration-workspace",
+        "local_path": ".",
+        "component_type": "integration-workspace",
+        "status": "active",
+        "version": "1.0.0",
+        "deployment": {
+          "platform": "local-workspace",
+          "url": "file:///Users/rebeccalemke/Library/Mobile%20Documents/com~apple~CloudDocs/cathedral-integration-workspace",
+          "status": "active"
+        },
+        "dependencies": [
+          "cathedral-monorepo",
+          "circuitum99",
+          "codex-14499",
+          "cosmogenesis-learning-engine",
+          "liber-arcanae"
+        ],
+        "technologies": ["git", "workspace-management"],
+        "last_commit": "pending_check"
+      }
+    },
+    "deployment_targets": {
+      "main_hub": {
+        "name": "Cathedral of Circuits Main Hub",
+        "url": "https://bekalah.github.io/cathedral/",
+        "description": "Main entry point for the entire Cathedral ecosystem",
+        "status": "needs_deployment",
+        "repositories": [
+          "cathedral-monorepo",
+          "circuitum99",
+          "codex-14499",
+          "cosmogenesis-learning-engine",
+          "liber-arcanae",
+          "cathedral-research",
+          "stone-cathedral"
+        ]
+      },
+      "codex_portal": {
+        "name": "Codex Portal",
+        "url": "https://codex.cathedral144.pages.dev",
+        "description": "Main interface and learning engine",
+        "status": "external_cloudflare",
+        "source_repository": "cathedral-monorepo"
+      },
+      "stone_cathedral": {
+        "name": "Stone Cathedral Realms",
+        "url": "https://realms.cathedral144.pages.dev",
+        "description": "Immersive sacred realms",
+        "status": "external_cloudflare",
+        "source_repository": "stone-cathedral"
+      },
+      "circuit_grimoire": {
+        "name": "Circuit Grimoire",
+        "url": "https://grimoire.cathedral144.pages.dev",
+        "description": "Interactive story system",
+        "status": "external_cloudflare",
+        "source_repository": "liber-arcanae"
+      }
+    },
+    "sacred_architecture": {
+      "codex_144_99": {
+        "nodes": 144,
+        "fusion_gates": 99,
+        "chapters": 33,
+        "egregores": 7
+      },
+      "tarot_system": {
+        "major_arcana": 22,
+        "minor_arcana": 56,
+        "total_cards": 78,
+        "crystal_keys": 78
+      },
+      "sacred_geometry": {
+        "vesica_piscis": "9x7_lattice",
+        "tree_of_life": "10_sephirot_22_paths",
+        "fibonacci_spiral": "golden_ratio",
+        "double_helix": "22_crossbars"
+      }
+    },
+    "trauma_informed_design": {
+      "principles": [
+        "no_autoplay_or_flashing",
+        "generous_whitespace",
+        "calm_contrast",
+        "optional_motion_14s_minimum",
+        "pure_functions_auditable"
+      ],
+      "target_audience": [
+        "trauma_survivors",
+        "cptsd",
+        "enlarged_amygdala",
+        "neurodivergent_minds"
+      ]
+    }
+  }
+}
